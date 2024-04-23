@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color:#1f1f21;
+    --text-color:#b3b0b0;
+    --main-color:rgb(243, 182, 68);
+    --navigation-color:rgb(48, 49, 51);
+
+    --small-font:5rem;
+    --big-font:7rem;
+    --p-font:1.1rem;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow-x:hidden ;
+}
+header{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 15%;
+    background: transparent;
+    transition: all eas .45s;
+    background-color:var(--navigation-color);
+}
+header img{
+    border-radius: 50%;
+}
+.logo{
+    color: var(--text-color);
+    font-size: 41px;
+    font-weight: 600;
+}
+.logo span{
+    color: var(--main-color);
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: var(--p-font);
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 0 20px;
+    transition: all ease .50s;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+.navbar a:active{
+    color: var(--main-color);
+}
+
+
+section{
+    padding: 0 15%;
+}
+.about{
+    background-color:var(--bg-color);
+    position: relative;
+    width:100%;
+    height: 80vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:40px;
+    margin-top: 80px;
+}
+.about-img{
+    width: auto;
+    height:auto;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.about-text h3{
+    font-size: 80px;
+    margin: 20px;
+}
+.about-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    color: #c3c3c3;
+    line-height: 30px;
+    mask-border: 50px;
+    
+}
+.lnk{
+    color:rgb(243, 182, 68);
+}
+.main-text h3{
+    font-size: var(--small-font);
+    margin: 20px;
+}
+
+
+.carousel-item > img{
+    height: 400px;
+
+}
+
+.container h3{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.details{
+    font-size: var(--p-font);   
+}
+.foundation-details{
+    font-size: var(--p-font);
+}
+.foundation-img{
+    height: auto;
+    width: 500px;
+    margin-left: 400px;
+   
+}
+.connect{
+    background-color:var(--navigation-color);
+}
+
+.col-lg-6{
+color: honeydew;
+}
+
+.form-label{
+    color: black;
+}
+.cx{
+    color: black;
+}
+.fas{
+    color: black;
+}
+.con_x{
+    background-color: darkgrey;
+}
+.col-6{
+    color: white;
+}
+
+.lol{
+    background-color: white;
+}
+.sw{
+    color: rgb(243, 182, 68);
+}
+.py{
+    color: khaki;
+}
